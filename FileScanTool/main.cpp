@@ -118,6 +118,9 @@ void test03()
 	//strcpy_s(buffer_t, sizeof(buffer_t), ctime(&currentTime));
 	//strcpy(buffer_t, ctime(&currentTime));
 	cout << buffer_t << endl;
+
+	__int64 test_int64 = -1;
+	cout << "__int64Îª¸º£¿" << test_int64 << endl;
 }
 
 int ScanCatalogue2(const string& path, vector<FileInfo>& fileInfos, unsigned long &fileCount, unsigned long &dirCount)
