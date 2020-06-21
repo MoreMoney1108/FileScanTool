@@ -268,6 +268,6 @@ int main()
 	run2();
 	//test03();
 
-	system("pause");
+	//system("pause");
 	return 0;
 }
